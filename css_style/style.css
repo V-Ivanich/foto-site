@@ -257,3 +257,29 @@ img.demo[tabindex="0"]:focus ~ * {
         opacity: 1
     }
 }
+.xf_16mm {
+    margin-top: 20px;
+}
+.xf_16mm,.xf_35mm,.xf_50_140,.hel_44_3,.petzval,.zenit,.industar {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgba(176, 172, 167, 0.7);
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.mini_fot {
+    width: 380px;
+   height: 300px;
+    border: 3px solid #4c5465;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+     box-shadow: 5px 5px 5px 5px rgba(0,0,0,.5);
+}
+.videlenie {
+    background-color: #a09d95;
+}
