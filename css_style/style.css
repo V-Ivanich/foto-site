@@ -1,12 +1,15 @@
 html {
     background-image: url(../image/backgr.png);
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 body {
-    max-width: 1600px;
+    max-width: 1400px;
+    min-width: 1000px;
     margin: 0 auto;
     font-family: "Helvetica";
+    scroll-behavior: smooth;
 }
 
 .conteiner-1 {
@@ -260,7 +263,7 @@ img.demo[tabindex="0"]:focus ~ * {
 .xf_16mm {
     margin-top: 20px;
 }
-.xf_16mm,.xf_35mm,.xf_50_140,.hel_44_3,.petzval,.zenit,.industar {
+.obektiv {
     display: flex;
     margin-bottom: 20px;
     padding-bottom: 20px;
