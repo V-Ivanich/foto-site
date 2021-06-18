@@ -1,3 +1,7 @@
+
+
+
+// Слайдер
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -25,6 +29,23 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 };
 
+//видимость кнопки наверх
+let upBtn = document.querySelector(".upps");
+
+//получение значения окна прокрутки
+var scrollHeight = document.documentElement.clientHeight;
+
+
+window.addEventListener('scroll', function() {
+    let scrollPos = window.scrollY;
+    if (scrollPos > scrollHeight) {
+        upBtn.classList.add('visibl_e');
+    } else {
+        upBtn.classList.remove('visibl_e');
+    }
+});
+
+
 $(document).ready(function(){
   // Добавить плавную прокрутку до всех ссылок
   $("a").on('click', function(event) {
@@ -50,24 +71,3 @@ $(document).ready(function(){
   });
 });
 
-
-//мой скролл
-
-/*
-var hiddenElement = document.getElementById("box");
-var btn = document.querySelector('.btn_1');
-
-var foot = document.getElementById("foo");
-var btn_2 = document.querySelector('.btn_2');
-
-function handleButtonClick() {
-   hiddenElement.scrollIntoView({block: "start", behavior: "smooth"});
-}
-
-function footClick() {
-   foot.scrollIntoView({block: "end", behavior: "smooth"});
-}
-
-btn.addEventListener('click', handleButtonClick);
-btn_2.addEventListener('click', footClick);
-*/
