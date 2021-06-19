@@ -11,4 +11,4 @@
   * Анимация скроллинга
   * Выезжающее боковое окно
 ***
-[DEMO](https://github.com/V-Ivanich/foto-site/project/index.html)  
+[DEMO](https://github.com/V-Ivanich/foto-site/blob/master/index.html)  
