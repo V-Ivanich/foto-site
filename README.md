@@ -10,5 +10,3 @@
   * Кликабельные кнопки и ссылки
   * Анимация скроллинга
   * Выезжающее боковое окно
-***
-[DEMO](https://github.com/V-Ivanich/foto-site/blob/master/index.html)  
