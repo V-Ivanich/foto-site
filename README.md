@@ -9,4 +9,5 @@
   * Кликабельные кнопки и ссылки
   * Анимация скроллинга
   * Выезжающее боковое окно
-  [Demo](https://v-ivanich.github.io/foto-site/)
+***
+ [Demo](https://v-ivanich.github.io/foto-site/)
