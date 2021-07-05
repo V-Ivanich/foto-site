@@ -44,8 +44,9 @@ body {
 }
 
 p {
-    padding-right: 5px;
-    font-size: 1.1em;
+
+    font-size: 1.2em;
+    color: #1f1f1f;
 }
 
 p:first-letter {
@@ -67,6 +68,7 @@ h2 {
     color: #5c5867;
     font-weight: 300;
     text-align: center;
+    text-shadow: 4px 3px rgba(0, 0, 0, .17);
 }
 
 h3,
@@ -349,4 +351,29 @@ img.demo[tabindex="0"]:focus ~ * {
 }
 .videlenie {
     background-color: #a09d95;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+.foot {
+    padding-left: 50px;
+}
+.contact {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.contact a {
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+}
+.contact img {
+     filter: hue-rotate(190deg) saturate(50) drop-shadow(2px 2px);
+}
+.con {
+    margin-left: 30px;
+    height: 20px;
+    width: 20px;
 }
